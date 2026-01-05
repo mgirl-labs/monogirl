@@ -1,0 +1,13 @@
+target/
+node_modules/
+.anchor/
+.DS_Store
+*.swp
+*.swo
+dist/
+coverage/
+.env
+.env.local
+main.py
+test-ledger/
+*.log
