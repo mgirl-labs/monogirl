@@ -1,0 +1,24 @@
+[package]
+name = "monogirl-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Conditional Parallel Execution on Solana. The Anti-Jito."
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "monogirl_core"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { workspace = true, features = ["derive"] }
+anchor-spl = { workspace = true }
+solana-program = { workspace = true }
+borsh = { workspace = true }
+sha2 = { workspace = true }
