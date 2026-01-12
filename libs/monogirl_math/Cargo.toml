@@ -1,0 +1,10 @@
+[package]
+name = "monogirl-math"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Core mathematical primitives for monogirl parallel execution proofs"
+
+[dependencies]
+sha2 = { workspace = true }
+thiserror = { workspace = true }
