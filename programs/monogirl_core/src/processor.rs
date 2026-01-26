@@ -8,6 +8,7 @@ const MAX_BUNDLE_DATA_SIZE: usize = 1024;
 const MAX_BUNDLE_DEPTH: u8 = 32;
 const MIN_TRANSACTIONS_FOR_VALIDATE: usize = 2;
 
+/// Safely increments bundle count with overflow protection
 pub fn handle_initialize_cpe_state(
     ctx: Context<InitializeCpeState>,
     max_depth: u8,
