@@ -38,3 +38,4 @@ pub enum MonoGirlError {
     #[msg("Insufficient MONO burned for CPE request")]
     InsufficientMonoBurned,
 }
+
