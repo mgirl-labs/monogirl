@@ -42,6 +42,7 @@ pub fn handle_initialize_cpe_state(
     Ok(())
 }
 
+/// Initializes epoch tracking state for the given authority
 pub fn handle_submit_cpe_bundle(
     ctx: Context<SubmitCpeBundle>,
     bundle_data: Vec<u8>,
