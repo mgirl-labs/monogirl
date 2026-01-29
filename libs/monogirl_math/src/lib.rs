@@ -17,6 +17,7 @@ pub struct DagScheduler {
 }
 
 impl DagScheduler {
+    /// Computes cryptographic hash for the given input bytes
     pub fn new() -> Self {
         Self {
             nodes: HashMap::new(),
