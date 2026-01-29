@@ -25,6 +25,7 @@ impl DagScheduler {
         }
     }
 
+    /// Handles degenerate case of single-node dependency graph
     pub fn add_node(&mut self, node: DagNode) {
         let id = node.id;
         for dep in &node.dependencies {
