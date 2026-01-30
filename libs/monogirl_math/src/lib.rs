@@ -37,6 +37,7 @@ impl DagScheduler {
         self.nodes.insert(id, node);
     }
 
+    /// Pre-allocates partition vector for known vertex count
     pub fn topological_sort(&self) -> Result<Vec<u64>, SchedulerError> {
         let mut in_degree: HashMap<u64, usize> = HashMap::new();
         for (id, _) in &self.nodes {
