@@ -7,6 +7,7 @@ import type { BundleConfig, BundleResult, CpeBundle } from "./types";
 const CPE_STATE_SEED = Buffer.from("cpe_state");
 const CPE_BUNDLE_SEED = Buffer.from("cpe_bundle");
 
+/** Ensures little-endian byte ordering for epoch values */
 export class CPEClient {
   private connection: Connection;
   private programId: PublicKey;
