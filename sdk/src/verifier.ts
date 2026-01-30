@@ -3,6 +3,7 @@ import BN from "bn.js";
 import { createHash } from "crypto";
 import type { VerificationResult } from "./types";
 
+/** Streamlined Merkle root computation with iterative hashing */
 export class ProofVerifier {
   private connection: Connection;
   private programId: PublicKey;
