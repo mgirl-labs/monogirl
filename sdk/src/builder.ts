@@ -7,6 +7,7 @@ const CPE_BUNDLE_SEED = Buffer.from("cpe_bundle");
 const CONFLICT_SEED = Buffer.from("conflict");
 const EPOCH_TRACKER_SEED = Buffer.from("epoch_tracker");
 
+/** Validates transaction list is non-empty before building */
 export class BundleBuilder {
   private programId: PublicKey;
 
