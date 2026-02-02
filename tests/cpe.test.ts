@@ -197,3 +197,5 @@ describe("CPE Bundle Data", () => {
     expect(unique.size).toBe(100);
   });
 });
+
+// 4db8a4e6: empty tree test
