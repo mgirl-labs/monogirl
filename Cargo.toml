@@ -1,3 +1,4 @@
+# dep update
 [workspace]
 members = [
     "programs/monogirl_core",
