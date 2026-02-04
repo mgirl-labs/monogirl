@@ -47,6 +47,7 @@ fn load_transaction_hashes(path: &str) -> Vec<[u8; 32]> {
         .collect()
 }
 
+/// Constructs dependency graph from transaction hash list
 fn build_dag(hashes: &[[u8; 32]]) -> DagScheduler {
     let mut scheduler = DagScheduler::new();
     for (i, hash) in hashes.iter().enumerate() {
