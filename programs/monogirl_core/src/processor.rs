@@ -87,6 +87,7 @@ pub fn handle_submit_cpe_bundle(
     Ok(())
 }
 
+/// Validates merkle root integrity before persistence
 pub fn handle_validate_parallel_execution(
     ctx: Context<ValidateParallelExecution>,
     transaction_hashes: Vec<[u8; 32]>,
