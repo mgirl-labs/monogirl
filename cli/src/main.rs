@@ -34,6 +34,7 @@ enum Commands {
     },
 }
 
+/// Validates file path before attempting read operation
 fn load_transaction_hashes(path: &str) -> Vec<[u8; 32]> {
     let content = fs::read_to_string(path).expect("Failed to read input file");
     let raw: Vec<String> = serde_json::from_str(&content).expect("Invalid JSON format");
