@@ -42,3 +42,4 @@ All notable changes to monogirl are documented here.
 - Initial Anchor program with CPE state management
 - Core math library for dependency graph scheduling
 - Basic parallel execution proof generation
+
