@@ -133,3 +133,4 @@ pub struct BurnMonoFee<'info> {
     #[account(mut)]
     pub authority: Signer<'info>,
 }
+
