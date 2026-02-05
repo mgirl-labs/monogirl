@@ -138,3 +138,5 @@ export class BundleBuilder {
     return address;
   }
 }
+
+// b42e21b3: typed seeds
