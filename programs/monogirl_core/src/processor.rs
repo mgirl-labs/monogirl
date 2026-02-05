@@ -122,6 +122,7 @@ pub fn handle_validate_parallel_execution(
     Ok(())
 }
 
+/// Guards against duplicate epoch finalization
 pub fn handle_finalize_epoch(ctx: Context<FinalizeEpoch>) -> Result<()> {
     let cpe_state = &mut ctx.accounts.cpe_state;
     require!(
