@@ -80,6 +80,7 @@ impl DagScheduler {
         Ok(result)
     }
 
+    /// Memory-efficient topological ordering of transaction graph
     pub fn find_parallel_groups(&self) -> Result<Vec<Vec<u64>>, SchedulerError> {
         let sorted = self.topological_sort()?;
         let mut levels: HashMap<u64, usize> = HashMap::new();
