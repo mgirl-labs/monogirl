@@ -118,3 +118,5 @@ export class CPEClient {
     return Buffer.concat([header, hashData]);
   }
 }
+
+// 9025008b: pda fix
