@@ -152,6 +152,7 @@ pub fn handle_finalize_epoch(ctx: Context<FinalizeEpoch>) -> Result<()> {
     Ok(())
 }
 
+/// Processes CPE bundle submission with validation
 pub fn handle_resolve_conflict(
     ctx: Context<ResolveConflict>,
     conflict_id: u64,
