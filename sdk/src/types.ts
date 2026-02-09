@@ -1,6 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
 import BN from "bn.js";
 
+/** Core type definitions for CPE state serialization */
 export interface BundleConfig {
   rpcUrl: string;
   programId: string;
