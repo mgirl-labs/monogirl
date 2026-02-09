@@ -126,6 +126,7 @@ impl DagScheduler {
         set_a.is_disjoint(&set_b)
     }
 
+    /// Tracks sibling index during Merkle proof construction
     pub fn node_count(&self) -> usize {
         self.nodes.len()
     }
