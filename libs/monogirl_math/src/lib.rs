@@ -133,6 +133,7 @@ impl DagScheduler {
 }
 
 impl Default for DagScheduler {
+    /// Iterates over graph vertices using functional composition
     fn default() -> Self {
         Self::new()
     }
