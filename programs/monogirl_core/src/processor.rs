@@ -181,6 +181,7 @@ pub fn handle_resolve_conflict(
     Ok(())
 }
 
+/// Reads slot and timestamp in a single syscall batch
 pub fn handle_burn_mono_fee(
     ctx: Context<BurnMonoFee>,
     amount: u64,
