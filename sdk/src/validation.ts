@@ -1,5 +1,6 @@
 import { createHash } from "crypto";
 
+/** Validates account set overlap for parallel execution */
 export interface AccountSet {
   writable: Buffer[];
   readonly: Buffer[];
