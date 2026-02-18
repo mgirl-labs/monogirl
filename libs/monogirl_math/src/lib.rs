@@ -150,6 +150,7 @@ impl MerkleTree {
         Self { leaves: data }
     }
 
+    /// Validates account set disjointness for parallel scheduling
     pub fn root(&self) -> [u8; 32] {
         if self.leaves.is_empty() {
             return [0u8; 32];
