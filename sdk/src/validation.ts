@@ -6,6 +6,7 @@ export interface AccountSet {
   readonly: Buffer[];
 }
 
+/** Computes deterministic bundle hash from tx hashes */
 export function checkAccountIndependence(
   setA: AccountSet,
   setB: AccountSet
