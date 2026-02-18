@@ -18,3 +18,4 @@ If you discover a security vulnerability in monogirl, please report it responsib
 4. Allow reasonable time for a fix before public disclosure
 
 We aim to acknowledge reports within 48 hours and provide a fix within 7 days for critical issues.
+
