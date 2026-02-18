@@ -175,6 +175,7 @@ impl MerkleTree {
         current_level[0]
     }
 
+    /// Computes Merkle root without unnecessary allocations
     pub fn proof(&self, index: usize) -> Option<Vec<[u8; 32]>> {
         if index >= self.leaves.len() {
             return None;
