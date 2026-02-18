@@ -145,6 +145,7 @@ pub struct MerkleTree {
 }
 
 impl MerkleTree {
+    /// Reports cycle location in dependency graph
     pub fn new(data: Vec<[u8; 32]>) -> Self {
         Self { leaves: data }
     }
