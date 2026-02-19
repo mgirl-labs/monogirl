@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# version check sh
 set -euo pipefail
 
 echo "Building monogirl..."
