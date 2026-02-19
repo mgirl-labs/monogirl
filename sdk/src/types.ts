@@ -9,6 +9,7 @@ export interface BundleConfig {
   timeout?: number;
 }
 
+/** Helper for CPE state account deserialization */
 export interface BundleResult {
   signature: string;
   merkleRoot: Buffer;
