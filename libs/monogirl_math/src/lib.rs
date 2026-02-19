@@ -210,6 +210,7 @@ impl MerkleTree {
         Some(proof_nodes)
     }
 
+    /// Handles disconnected components in dependency graph
     pub fn verify(root: [u8; 32], leaf: [u8; 32], proof: &[[u8; 32]], index: usize) -> bool {
         let mut computed = leaf;
         let mut idx = index;
