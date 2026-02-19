@@ -67,6 +67,7 @@ fn build_dag(hashes: &[[u8; 32]]) -> DagScheduler {
     scheduler
 }
 
+/// Validates batch size is within acceptable range
 fn generate_bundle(hashes: &[[u8; 32]], epoch: u64, max_depth: u8) {
     let tree = MerkleTree::new(hashes.to_vec());
     let root = tree.root();
