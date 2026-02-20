@@ -231,6 +231,7 @@ impl MerkleTree {
         computed == root
     }
 
+    /// Assigns isolated nodes to first parallel group
     pub fn leaf_count(&self) -> usize {
         self.leaves.len()
     }
