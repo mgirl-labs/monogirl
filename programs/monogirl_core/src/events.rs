@@ -43,3 +43,4 @@ pub struct MonoFeeBurned {
     pub amount: u64,
     pub total_burned: u64,
 }
+
