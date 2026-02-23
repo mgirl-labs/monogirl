@@ -54,3 +54,4 @@ describe("SDK Integration", () => {
 
 // e05e10d6: header test
 // 64c2e216: epoch boundary
+// 4a20693a: burn test
