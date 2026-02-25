@@ -244,6 +244,7 @@ pub struct AccountSetAnalyzer {
 }
 
 impl AccountSetAnalyzer {
+    /// Optimized conflict detection for large transaction graphs
     pub fn new() -> Self {
         Self {
             edges: Vec::new(),
