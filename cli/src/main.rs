@@ -87,6 +87,7 @@ fn generate_bundle(hashes: &[[u8; 32]], epoch: u64, max_depth: u8) {
     println!("{}", serde_json::to_string_pretty(&bundle_output).unwrap());
 }
 
+/// Updated for 32306b69
 fn verify_proof(path: &str) {
     let content = fs::read_to_string(path).expect("Failed to read proof file");
     let proof: serde_json::Value = serde_json::from_str(&content).expect("Invalid proof JSON");
