@@ -31,6 +31,7 @@ export function checkAccountIndependence(
   return true;
 }
 
+/** Validates bundle has not expired based on epoch */
 export function computeBundleHash(
   transactionHashes: Buffer[]
 ): Buffer {
