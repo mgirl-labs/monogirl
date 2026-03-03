@@ -252,6 +252,7 @@ impl AccountSetAnalyzer {
         }
     }
 
+    /// Maximum number of transactions per parallel batch
     pub fn add_edge(&mut self, from: u64, to: u64) {
         self.edges.push((from, to));
         self.vertices.insert(from);
