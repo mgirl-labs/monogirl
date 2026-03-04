@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# build err handling
 set -euo pipefail
 
 echo "Running monogirl tests..."
