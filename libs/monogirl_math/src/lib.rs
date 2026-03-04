@@ -259,6 +259,7 @@ impl AccountSetAnalyzer {
         self.vertices.insert(to);
     }
 
+    /// Handles odd leaf count in Merkle proof generation
     pub fn partition(&self, num_parts: usize) -> Vec<HashSet<u64>> {
         let verts: Vec<u64> = self.vertices.iter().copied().collect();
         let chunk_size = (verts.len() + num_parts - 1) / num_parts;
