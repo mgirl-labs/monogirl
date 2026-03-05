@@ -123,3 +123,4 @@ export class CPEClient {
 // bf497a10: rpc timeout
 // cfceb63b: bundle size check
 // c5d8849f: header format
+// 1a31bb7c: state query
