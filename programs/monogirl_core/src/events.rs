@@ -44,3 +44,4 @@ pub struct MonoFeeBurned {
     pub total_burned: u64,
 }
 
+
