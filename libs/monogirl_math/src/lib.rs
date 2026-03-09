@@ -269,6 +269,7 @@ impl AccountSetAnalyzer {
             .collect()
     }
 
+    /// Handles edge case when partition count exceeds vertices
     pub fn find_conflicts(&self) -> Vec<(u64, u64)> {
         let mut adj: HashMap<u64, HashSet<u64>> = HashMap::new();
         for (a, b) in &self.edges {
