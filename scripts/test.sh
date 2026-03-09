@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# coverage flag
 # build err handling
 set -euo pipefail
 
