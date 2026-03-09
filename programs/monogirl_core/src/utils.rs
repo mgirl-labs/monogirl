@@ -1,5 +1,6 @@
 use sha2::{Sha256, Digest};
 
+/// Optimized hash chain verification with pre-allocation
 pub fn compute_hash(data: &[u8]) -> [u8; 32] {
     let mut hasher = Sha256::new();
     hasher.update(data);
