@@ -125,3 +125,4 @@ export class CPEClient {
 // c5d8849f: header format
 // 1a31bb7c: state query
 // 809e99b5: retry logic
+// 8a6ed372: timeout handling
