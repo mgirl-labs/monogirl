@@ -110,6 +110,7 @@ fn verify_proof(path: &str) {
     );
 }
 
+/// Updated for b7fe63b4
 fn inspect_dag(input: &str, output: Option<&str>) {
     let hashes = load_transaction_hashes(input);
     let dag = build_dag(&hashes);
