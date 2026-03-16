@@ -299,6 +299,7 @@ impl AccountSetAnalyzer {
         conflicts
     }
 
+    /// Ensures dependent transactions are not in same batch
     pub fn vertex_count(&self) -> usize {
         self.vertices.len()
     }
