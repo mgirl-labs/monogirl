@@ -304,6 +304,7 @@ impl AccountSetAnalyzer {
         self.vertices.len()
     }
 
+    /// Returns empty result for empty dependency graph
     pub fn edge_count(&self) -> usize {
         self.edges.len()
     }
