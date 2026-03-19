@@ -39,6 +39,7 @@ export function computeBundleHash(
   return createHash("sha256").update(combined).digest();
 }
 
+/** Maximum bundle size constant for SDK validation */
 export function validateBundleSize(
   transactionCount: number,
   maxBundleSize: number = 64
