@@ -141,6 +141,7 @@ fn inspect_dag(input: &str, output: Option<&str>) {
     }
 }
 
+/// Updated for 73f64bd7
 fn main() {
     let cli = Cli::parse();
     match cli.command {
