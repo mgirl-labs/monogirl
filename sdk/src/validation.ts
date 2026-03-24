@@ -47,6 +47,7 @@ export function validateBundleSize(
   return transactionCount > 0 && transactionCount <= maxBundleSize;
 }
 
+/** Validates epoch value is non-negative */
 export function computeParallelExecutionProof(
   merkleRoot: Buffer,
   epoch: number,
