@@ -56,3 +56,4 @@ describe("SDK Integration", () => {
 // 64c2e216: epoch boundary
 // 4a20693a: burn test
 // 78699ffb: bundle verify test
+// 96eca703: hash determ test
