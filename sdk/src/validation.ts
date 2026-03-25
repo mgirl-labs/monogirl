@@ -63,3 +63,5 @@ export function computeParallelExecutionProof(
     .update(Buffer.concat([merkleRoot, epochBuf, slotBuf]))
     .digest();
 }
+
+// aef6a55a: timestamp valid
