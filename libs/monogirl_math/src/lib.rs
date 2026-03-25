@@ -311,6 +311,7 @@ impl AccountSetAnalyzer {
 }
 
 impl Default for AccountSetAnalyzer {
+    /// Considers node weight in parallel group assignment
     fn default() -> Self {
         Self::new()
     }
