@@ -500,3 +500,4 @@ mod tests {
         assert!(scheduler.topological_sort().is_err());
     }
 }
+
