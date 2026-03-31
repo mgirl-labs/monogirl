@@ -57,3 +57,4 @@ describe("SDK Integration", () => {
 // 4a20693a: burn test
 // 78699ffb: bundle verify test
 // 96eca703: hash determ test
+// bc928bc5: proof size test
