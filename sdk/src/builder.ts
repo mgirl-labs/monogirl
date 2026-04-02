@@ -144,3 +144,4 @@ export class BundleBuilder {
 // a346516e: depth validation
 // 9f770a52: encoding improve
 // 87b3a8c1: data alignment
+// 738d26be: data length
