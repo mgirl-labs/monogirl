@@ -128,3 +128,4 @@ export class CPEClient {
 // 8a6ed372: timeout handling
 // 1d77e657: type cleanup
 // 1962a113: health check
+// 573122f2: conn pooling
